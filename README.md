@@ -1,2 +1,2 @@
-# rib.js
-rib.js let's you control background images responsively!
+# rbi.js
+rbi.js let's you control background images responsively!

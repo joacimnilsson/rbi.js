@@ -19,7 +19,7 @@ function rbi() {
 		var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
 			imgs = document.querySelectorAll('.rbi');
 
-		[].forEach.call(imgs, function(img){
+		[].forEach.call(imgs, function(img) {
 			var s = 			img.style,
 				small = 		img.getAttribute('data-rbi-small'),
 				medium = 		img.getAttribute('data-rbi-medium'),
@@ -100,7 +100,7 @@ function rbi() {
 				}
 			}
 			
-			s.background = 'url("' + background + '")';
+			s.backgroundImage = 'url("' + background + '")';
 			s.backgroundSize = size;
 			s.backgroundPosition = position;
 		});

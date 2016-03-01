@@ -17,18 +17,18 @@ function rbi() {
 	
 	function erbi() {
 		var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-			imgs = document.querySelectorAll('.rbi');
+		    imgs = document.querySelectorAll('.rbi');
 
 		[].forEach.call(imgs, function(img) {
-			var s = 			img.style,
-				small = 		img.getAttribute('data-rbi-small'),
-				medium = 		img.getAttribute('data-rbi-medium'),
-				large = 		img.getAttribute('data-rbi-large'),
-				xlarge = 		img.getAttribute('data-rbi-xlarge'),
-				xxlarge = 		img.getAttribute('data-rbi-xxlarge'),
-				size = 			img.getAttribute('data-rbi-size'),
-				position = 		img.getAttribute('data-rbi-position'),
-				background = 	"";
+			var s = 		img.style,
+			    small = 		img.getAttribute('data-rbi-small'),
+			    medium = 		img.getAttribute('data-rbi-medium'),
+			    large = 		img.getAttribute('data-rbi-large'),
+			    xlarge = 		img.getAttribute('data-rbi-xlarge'),
+			    xxlarge = 		img.getAttribute('data-rbi-xxlarge'),
+			    size = 		img.getAttribute('data-rbi-size'),
+			    position = 		img.getAttribute('data-rbi-position'),
+			    background = 	"";
 			
 			if(w <= 640) {
 				if(small != "" && small != null){

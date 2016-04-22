@@ -1,18 +1,18 @@
 /*
-         _       _         _       
-        | |     (_)       (_)      
-  _ __  | |__    _         _   ___ 
- | '__| | '_ \  | |       | | / __|
- | |    | |_) | | |  _    | | \__ \
- |_|    |_.__/  |_| (_)   | | |___/
-                         _/ |      
-                        |__/       
- Version: 0.9
-  Author: Joacim Nilsson
- Website: http://joacimnilsson.se/rbi
-    Docs: http://joacimnilsson.se/rbi
-    Repo: https://github.com/joacimnilsson/rbi.js
- */
+        _       _         _       
+       | |     (_)       (_)      
+ _ __  | |__    _         _   ___ 
+| '__| | '_ \  | |       | | / __|
+| |    | |_) | | |  _    | | \__ \
+|_|    |_.__/  |_| (_)   | | |___/
+                        _/ |      
+                       |__/  
+Version: 0.9
+Author: Joacim Nilsson
+Website: http://joacimnilsson.se/rbi
+Docs: http://joacimnilsson.se/rbi
+Repo: https://github.com/joacimnilsson/rbi.js
+*/
 function rbi() {
 
     function rbiUpdate() {

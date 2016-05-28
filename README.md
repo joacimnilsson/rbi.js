@@ -29,7 +29,7 @@ Include it in any div and add the rbi class with the data-attributes shown down 
 ## Step 3
 Call the function rbi();
 
-I recommend you call it directly after the first section of your page. It could be the hero or a big slideshow.
+I recommend you call it directly after the first section of your page. It could be the hero or a big slideshow. And also when document has loaded. You can call it as many time as you want.
 
 # Enjoy!
 Link your site if you use it! :D

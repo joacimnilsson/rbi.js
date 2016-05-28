@@ -32,7 +32,7 @@ function rbi() {
         function itterate(img) {
             var sm = 		 img.getAttribute('data-rbi-sm'),
             	md = 		 img.getAttribute('data-rbi-md'),
-           		lg = 		 img.getAttribute('data-rbi-lg'),
+           	lg = 		 img.getAttribute('data-rbi-lg'),
             	xlg = 		 img.getAttribute('data-rbi-xlg'),
             	xxlg = 		 img.getAttribute('data-rbi-xxlg'),
 
@@ -76,7 +76,7 @@ function rbi() {
             	attachment = 'scroll';
         	}
 
-        	style.backgroundAttachment = attachment;
+            style.backgroundAttachment = attachment;
         };
     }
 

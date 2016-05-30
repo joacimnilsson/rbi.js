@@ -30,21 +30,21 @@ function rbi() {
         [].forEach.call(images, itterate);
 
         function itterate(img) {
-            var sm = 		 img.getAttribute('data-rbi-sm'),
-            	md = 		 img.getAttribute('data-rbi-md'),
-           	lg = 		 img.getAttribute('data-rbi-lg'),
-            	xlg = 		 img.getAttribute('data-rbi-xlg'),
-            	xxlg = 		 img.getAttribute('data-rbi-xxlg'),
+            var sm = 	        img.getAttribute('data-rbi-sm'),
+            	md = 		img.getAttribute('data-rbi-md'),
+           	lg = 		img.getAttribute('data-rbi-lg'),
+            	xlg = 		img.getAttribute('data-rbi-xlg'),
+            	xxlg = 		img.getAttribute('data-rbi-xxlg'),
 
-                sm2x =       img.getAttribute('data-rbi-sm2x'),
-                md2x =       img.getAttribute('data-rbi-md2x'),
-                lg2x =       img.getAttribute('data-rbi-lg2x'),
-                xlg2x =      img.getAttribute('data-rbi-xlg2x'),
-                xxlg2x =     img.getAttribute('data-rbi-xxlg2x'),
+                sm2x =          img.getAttribute('data-rbi-sm2x'),
+                md2x =          img.getAttribute('data-rbi-md2x'),
+                lg2x =          img.getAttribute('data-rbi-lg2x'),
+                xlg2x =         img.getAttribute('data-rbi-xlg2x'),
+                xxlg2x =        img.getAttribute('data-rbi-xxlg2x'),
 
-            	size = 		 img.getAttribute('data-rbi-size'),
-            	position = 	 img.getAttribute('data-rbi-position'),
-            	attachment = img.getAttribute('data-rbi-attachment'),
+            	size = 		img.getAttribute('data-rbi-size'),
+            	position = 	img.getAttribute('data-rbi-position'),
+            	attachment =    img.getAttribute('data-rbi-attachment'),
 
             	style = img.style;
 
@@ -64,7 +64,7 @@ function rbi() {
                     (w > 1440 && (xlg  || xxlg || lg   || md   || sm)) 	 ||
                     (w > 1024 && (lg   || xlg  || xxlg || md   || sm)) 	 ||
                     (w > 640  && (md   || lg   || xlg  || xxlg || sm))   ||
-                    (w > 0 	  && (sm   || md   || lg   || xlg  || xxlg));
+                    (w > 0    && (sm   || md   || lg   || xlg  || xxlg));
 
             }
 
@@ -74,7 +74,7 @@ function rbi() {
 
             if(w < 768) {
             	attachment = 'scroll';
-        	}
+            }
 
             style.backgroundAttachment = attachment;
         };

@@ -8,21 +8,21 @@ Add http://domain.com/path/to/rbi.min.js before ```</head>```
 Include it in any div and add the rbi class with the data-attributes shown down below 
 ```html
 <div class="{your classes here} rbi"
-	data-rbi-sm=""
-	data-rbi-md=""
-	data-rbi-lg=""
-	data-rbi-xlg=""
-	data-rbi-xxlg=""
+	data-rbi-sm="{image src}"
+	data-rbi-md="{image src}"
+	data-rbi-lg="{image src}"
+	data-rbi-xlg="{image src}"
+	data-rbi-xxlg="{image src}"
 
-	data-rbi-sm2x=""
-	data-rbi-md2x=""
-	data-rbi-lg2x=""
-	data-rbi-xlg2x=""
-	data-rbi-xxlg2x=""
+	data-rbi-sm2x="{retina image src}"
+	data-rbi-md2x="{retina image src}"
+	data-rbi-lg2x="{retina image src}"
+	data-rbi-xlg2x="{retina image src}"
+	data-rbi-xxlg2x="{retina image src}"
 
-	data-rbi-size=""
-	data-rbi-position=""
-	data-rbi-attachment=""
+	data-rbi-size="{ css background-size: values in here }"
+	data-rbi-position="{ css background-position: values in here }"
+	data-rbi-attachment="{ css background-attachment: values in here }"
 ></div>
 ```
 

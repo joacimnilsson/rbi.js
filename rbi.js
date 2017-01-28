@@ -8,10 +8,10 @@
 |_|    |_.__/  |_| (_)   | | |___/
                         _/ |      
                        |__/  
-Version: 0.9.3
-Author: Joacim Nilsson
-Website: http://joacimnilsson.se/rbi
-Docs: http://joacimnilsson.se/rbi
+Version: 1.0.0
+Authors: Joacim Nilsson, Rikard Legge
+Website: http://joacimnilsson.se/, https://www.legge.se/
+Docs: https://github.com/joacimnilsson/rbi.js
 Repo: https://github.com/joacimnilsson/rbi.js
 */
 function rbi() {

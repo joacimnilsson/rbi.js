@@ -1,4 +1,4 @@
-# rbi.js
+# rbi.js - 1.5kb
 rbi.js let's you control background images responsively!
 
 ## Step 1

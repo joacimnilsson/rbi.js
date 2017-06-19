@@ -5,7 +5,7 @@ rbi.js let's you control background images responsively!
 Add http://domain.com/path/to/rbi.min.js before ```</head>```
 
 ## Step 2
-Include it in any div and add the rbi class with the data-attributes shown down below 
+Include it in any div and add the rbi class with the data-attributes shown below 
 ```html
 <div class="{your classes here} rbi"
 	data-rbi-sm="{image src}"
